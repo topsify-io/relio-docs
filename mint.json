@@ -1,0 +1,63 @@
+{
+  "name": "Relio",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#2C31B7",
+    "light": "#787DFF",
+    "dark": "#0C1085",
+    "anchors": { "from": "#575DF3", "to": "#171B9E" }
+  },
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://www.getrelio.com/"
+  },
+  "topbarLinks": [
+    {
+      "name": "Learn More",
+      "url": "https://www.getrelio.com/"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Learn More",
+      "icon": "circle-info",
+      "url": "https://www.getrelio.com/"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Introduction",
+      "pages": [
+        "devpal/introduction",
+        "devpal/introduction/introduction",
+        "devpal/introduction/setup",
+        "devpal/introduction/code-collector",
+        "devpal/introduction/security-and-compliance"
+      ]
+    },
+    {
+      "group": "Key Terms",
+      "pages": ["devpal/key-terms"]
+    },
+    {
+      "group": "Product Guides",
+      "pages": [
+        "devpal/product-guides",
+        "devpal/product-guides/onboarding-your-first-git-repositories",
+        "devpal/product-guides/automated-discovery",
+        "devpal/product-guides/api-studio",
+        "devpal/product-guides/defining-ownership",
+        "devpal/product-guides/triaging-and-collaboration",
+        "devpal/product-guides/creating-quality-checks",
+        "devpal/product-guides/merging-openapi-specification"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://www.getrelio.com/"
+  }
+}

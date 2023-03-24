@@ -1,0 +1,28 @@
+---
+title: "Setup"
+description:
+  "This guide will get you started with running the all-in-one docker image"
+---
+
+In order for DevPal to work, the system needs to be able to:
+
+- Collect API metadata from your code repositories.
+
+- Run queries against your APIs to aggregate/ derive a handful of metrics and
+  statistics used for API Drift, breaking and other such info.
+
+![](/images/devpal/introduction/image.png)
+
+#### Setup Process:
+
+- Running docker image (3 minutes)
+
+```bash
+docker run -p 8080:8080 devpal/all-in-one:latest
+```
+
+- Onboarding Repositories(5 minutes) - see onboarding section
+
+- Initial scan of repositories(10m - 2 hours)
+
+---

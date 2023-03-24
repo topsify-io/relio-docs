@@ -1,0 +1,31 @@
+---
+title: "Merging OpenAPI Specification"
+description:
+  "This guide will demonstrate how to merge multiple specifications into a
+  single unified OpenAPI Specification."
+---
+
+Breaking down large OpenAPI specifications into smaller more modular specs is
+always a good idea. However distributing multiple specifications to your clients
+can have its own usability challenges.
+
+Benefits of Merged OpenAPI Specification:
+
+1. Single Specification is easier to version
+2. Provides single specification to customers
+3. Easier to distribute SDKs
+
+Challenges of Unified Schema:
+
+1. Hard to coordinate changes, merge conflicts
+2. Bottleneck and PR processes, means changes are lagging
+3. APIs must be merged into global namespace
+
+Currently, this is supported from the RestAPI.
+
+<Card
+  title="API Build Registration"
+  href="/devpal/product-guides/api-build-registration"
+>
+  **POST** http://localhost:8080/api/pipeline/register
+</Card>
