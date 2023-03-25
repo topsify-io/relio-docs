@@ -1,0 +1,63 @@
+---
+title: "API Build Registration"
+api: "POST http://localhost:8080/api/pipeline/register"
+---
+
+### Parameters
+
+No parameters
+
+### Body
+
+<Tabs>
+<Tab title="Example">
+
+```json
+{​
+  "output_api_id": "string",​
+  "inputs": [​
+    {​
+      "spec_url": "string",​
+      "api_id": "string"​
+    }​
+  ]​
+​}
+```
+
+</Tab>
+
+<Tab title="Schema">
+
+<Accordion title="object">
+
+    <ResponseField name="output_api_id" type="string" required>
+
+    </ResponseField>
+
+    <ResponseField name="inputs" type="array[object]" required>
+
+        <Accordion title="object" >
+
+            <ResponseField name="spec_url" type="string" >
+                Spec URL of individual openapi specs
+            </ResponseField>
+
+            <ResponseField name="api_id" type="string" required>
+                API ID of the openapi spec
+            </ResponseField>
+
+        </Accordion>
+
+    </ResponseField>
+
+</Accordion>
+
+</Tab>
+</Tabs>
+
+### Responses
+
+|                       |     |     |
+| --------------------- | --- | --- |
+| 🟢 **200: OK**        |     | OK  |
+| 🔴 **404: Not Found** |     | OK  |
