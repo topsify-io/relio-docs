@@ -28,7 +28,6 @@
       "pages": [
         "devpal/introduction",
         "devpal/introduction/introduction",
-        "devpal/introduction/setup",
         "devpal/introduction/code-collector",
         "devpal/introduction/security-and-compliance"
       ]
