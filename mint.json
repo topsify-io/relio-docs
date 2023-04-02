@@ -12,7 +12,7 @@
     "anchors": { "from": "#575DF3", "to": "#171B9E" }
   },
   "topbarCtaButton": {
-    "name": "Get Started",
+    "name": "Get a demo",
     "url": "https://www.getrelio.com/"
   },
   "anchors": [
