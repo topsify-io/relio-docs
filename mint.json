@@ -32,6 +32,13 @@
       ]
     },
     {
+      "group": "Product",
+      "pages": [
+        "devpal/product",
+        "devpal/product/key-terms"
+      ]
+    },
+    {
       "group": "Key Terms",
       "pages": ["devpal/key-terms"]
     },
