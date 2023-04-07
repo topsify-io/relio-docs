@@ -39,10 +39,6 @@
       ]
     },
     {
-      "group": "Key Terms",
-      "pages": ["devpal/key-terms"]
-    },
-    {
       "group": "Product Guides",
       "pages": [
         "devpal/product-guides",
