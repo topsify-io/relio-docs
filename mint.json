@@ -28,7 +28,8 @@
       "pages": [
         "devpal/introduction",
         "devpal/introduction/introduction",
-        "devpal/introduction/code-collector"
+        "devpal/introduction/code-collector",
+        "devpal/introduction/quick-start"
       ]
     },
     {
