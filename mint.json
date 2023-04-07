@@ -24,7 +24,7 @@
   ],
   "navigation": [
     {
-      "group": "Introduction",
+      "group": "Getting started",
       "pages": [
         "devpal/introduction",
         "devpal/introduction/introduction",
