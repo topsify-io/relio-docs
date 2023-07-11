@@ -26,30 +26,30 @@
     {
       "group": "Getting started",
       "pages": [
-        "devpal/introduction",
-        "devpal/introduction/introduction",
-        "devpal/introduction/code-collector",
-        "devpal/introduction/quick-start"
+        "relio/introduction",
+        "relio/introduction/introduction",
+        "relio/introduction/code-collector",
+        "relio/introduction/quick-start"
       ]
     },
     {
       "group": "Product",
       "pages": [
-        "devpal/product",
-        "devpal/product/key-terms"
+        "relio/product",
+        "relio/product/key-terms"
       ]
     },
     {
       "group": "Product Guides",
       "pages": [
-        "devpal/product-guides",
-        "devpal/product-guides/onboarding-your-first-git-repositories",
-        "devpal/product-guides/automated-discovery",
-        "devpal/product-guides/api-studio",
-        "devpal/product-guides/defining-ownership",
-        "devpal/product-guides/triaging-and-collaboration",
-        "devpal/product-guides/creating-quality-checks",
-        "devpal/product-guides/merging-openapi-specification"
+        "relio/product-guides",
+        "relio/product-guides/onboarding-your-first-git-repositories",
+        "relio/product-guides/automated-discovery",
+        "relio/product-guides/api-studio",
+        "relio/product-guides/defining-ownership",
+        "relio/product-guides/triaging-and-collaboration",
+        "relio/product-guides/creating-quality-checks",
+        "relio/product-guides/merging-openapi-specification"
       ]
     }
   ],
