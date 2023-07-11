@@ -38,19 +38,6 @@
         "relio/product",
         "relio/product/key-terms"
       ]
-    },
-    {
-      "group": "Product Guides",
-      "pages": [
-        "relio/product-guides",
-        "relio/product-guides/onboarding-your-first-git-repositories",
-        "relio/product-guides/automated-discovery",
-        "relio/product-guides/api-studio",
-        "relio/product-guides/defining-ownership",
-        "relio/product-guides/triaging-and-collaboration",
-        "relio/product-guides/creating-quality-checks",
-        "relio/product-guides/merging-openapi-specification"
-      ]
     }
   ],
   "footerSocials": {
